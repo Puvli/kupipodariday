@@ -22,7 +22,7 @@ import {
     @IsNotEmpty()
     username: string;
   
-    @Column({ default: 'Пока ничего не рассказал о себе' })
+    @Column({ default: 'Нет информации' })
     @Length(2, 200)
     @IsNotEmpty()
     about: string;
